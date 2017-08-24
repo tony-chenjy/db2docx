@@ -11,6 +11,7 @@ pip3 install Mysql2docx
 >>> from Mysql2docx import Mysql2docx
 >>> m=Mysql2docx()
 >>> m.do('127.0.0.1','root','password','dbName',3306)
+成功生成	数据库设计文档.docx
 ```
 
 截图
