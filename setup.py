@@ -8,19 +8,20 @@ import Mysql2docx
 See https://github.com/icecooly/Mysql2docx
 """
 
-VERSION = '1.0.0'
+VERSION = '1.0'
 
-with open('README.md') as f:
-    long_description = f.read()
+DESCRIPTION = (
+    '自动生成数据库设计文档'
+)
 
 setup(
         name='Mysql2docx', 
         version=VERSION, 
         description="mysql自动生成数据库设计文档",
-        long_description=long_description, # 放README.md文件,方便在Pypi页展示
-        classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-        keywords='自动数据库设计文档', # 关键字
-        author='skydu', # 用户名
+        long_description=DESCRIPTION,
+        classifiers=[],
+        keywords='自动数据库设计文档',
+        author='skydu',
         author_email='icecooly.du@qq.com', 
         url='https://github.com/icecooly/Mysql2docx',
         license='MIT',
