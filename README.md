@@ -2,7 +2,7 @@
 自动生成数据库设计文档
 
 安装
-[python3.0以上]
+[需要python3.0以上]
  
 ```shell
 pip install python-docx
