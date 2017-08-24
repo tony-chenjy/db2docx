@@ -2,7 +2,8 @@
 自动生成数据库设计文档
 
 安装
-![py35][py35] 
+[python3.0以上]
+ 
 ```shell
 pip install python-docx
 pip install Mysql2docx
