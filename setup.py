@@ -26,6 +26,7 @@ setup(
         url='https://github.com/icecooly/Mysql2docx',
         license='MIT',
         packages=find_packages(),
-        install_requires=['python-docx'],
+        install_requires=['python-docx','pymysql'],
+        setup_requires=['python-docx','pymysql']
         extras_require={}
 )
