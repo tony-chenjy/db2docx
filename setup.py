@@ -8,7 +8,7 @@ import Mysql2docx
 See https://github.com/icecooly/Mysql2docx
 """
 
-VERSION = '1.0'
+VERSION = '1.2'
 
 DESCRIPTION = (
     '自动生成数据库设计文档'
