@@ -27,6 +27,6 @@ setup(
         license='MIT',
         packages=find_packages(),
         install_requires=['python-docx','pymysql'],
-        setup_requires=['python-docx','pymysql']
+        setup_requires=['python-docx','pymysql'],
         extras_require={}
 )
