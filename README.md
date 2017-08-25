@@ -5,7 +5,6 @@
 [需要python3.0以上]
  
 ```shell
-pip install python-docx
 pip install Mysql2docx
 ```
 

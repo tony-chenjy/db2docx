@@ -2,13 +2,12 @@
 from setuptools import setup, find_packages
 import sys, os
 from os import path
-import Mysql2docx
 
 """
 See https://github.com/icecooly/Mysql2docx
 """
 
-VERSION = '1.2'
+VERSION = '1.5'
 
 DESCRIPTION = (
     '自动生成数据库设计文档'
@@ -21,12 +20,12 @@ setup(
         long_description=DESCRIPTION,
         classifiers=[],
         keywords='自动数据库设计文档',
+        include_package_data = True,
         author='skydu',
         author_email='icecooly.du@qq.com', 
         url='https://github.com/icecooly/Mysql2docx',
         license='MIT',
         packages=find_packages(),
         install_requires=['python-docx','pymysql'],
-        setup_requires=['python-docx','pymysql'],
         extras_require={}
 )
