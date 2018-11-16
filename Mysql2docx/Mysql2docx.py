@@ -3,14 +3,14 @@
 
 import json
 import pymysql
-from . import Table
-from . import Column
 from docx import Document
 from docx.shared import Pt
 from docx.shared import Inches
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+from entity import Table
+from entity import Column
 
 __author__ = 'skydu'
 
