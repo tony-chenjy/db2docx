@@ -5,14 +5,33 @@ from os import path
 
 """
 See https://github.com/icecooly/Mysql2docx
+See https://gitee.com/chenjunyu/Mysql2docx
 """
 
 VERSION = '1.5'
 
 DESCRIPTION = (
-    '自动生成数据库设计文档'
+    '自动生成数据库设计文档（带样式）'
 )
 
+setup(
+        name='Mysql2docx_cm',
+        version=VERSION, 
+        description="mysql自动生成数据库设计文档（带样式）",
+        long_description=DESCRIPTION,
+        classifiers=[],
+        keywords='自动数据库设计文档（带样式）',
+        include_package_data=True,
+        author='tony.chenjy',
+        author_email='tony.chenjy@foxmail.com',
+        url='https://gitee.com/chenjunyu/Mysql2docx',
+        license='MIT',
+        packages=find_packages(),
+        install_requires=['python-docx','pymysql'],
+        extras_require={}
+)
+
+'''
 setup(
         name='Mysql2docx', 
         version=VERSION, 
@@ -29,3 +48,4 @@ setup(
         install_requires=['python-docx','pymysql'],
         extras_require={}
 )
+'''

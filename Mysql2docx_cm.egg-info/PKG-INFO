@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Mysql2docx-cm
+Version: 1.5
+Summary: mysql自动生成数据库设计文档（带样式）
+Home-page: https://gitee.com/chenjunyu/Mysql2docx
+Author: tony.chenjy
+Author-email: tony.chenjy@foxmail.com
+License: MIT
+Description: 自动生成数据库设计文档（带样式）
+Keywords: 自动数据库设计文档（带样式）
+Platform: UNKNOWN

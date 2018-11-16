@@ -12,10 +12,10 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
-__author__ = 'skydu'
+__author__ = 'tony.chenjy'
 
 
-class Mysql2docx(object):
+class Mysql2docx_cm(object):
     db_name = ''
 
     #
