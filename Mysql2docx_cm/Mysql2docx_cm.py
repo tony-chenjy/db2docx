@@ -64,14 +64,17 @@ class Mysql2docx_cm(object):
         cursor.close()
         return columns
 
-    def do(self, db_host, db_name, db_port=3306, db_user='root', db_password='root', file_name='数据字典'):
+    def export(self):
+        print("call method do(db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典')")
+
+    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典'):
         print("jdbc_url=%s:%d/%s" % (db_host, db_port, db_name))
         print("db_user=%s" % db_user)
-        print("db_pwd=%s" % db_password)
+        print("db_pwd=%s" % db_pwd)
         print()
 
         self.db_name = db_name
-        db = pymysql.connect(db_host, db_user, db_password, db_name, db_port, charset="utf8")
+        db = pymysql.connect(db_host, db_user, db_pwd, db_name, db_port, charset="utf8")
         tables = self.get_tables(db)
         for table in tables:
             table_name = table.name
@@ -90,7 +93,7 @@ class Mysql2docx_cm(object):
 
         table_no = 0
         for table in tables:
-            # print("table: %s columns: %d" % (table, len(table.columns)))
+            print("table: %s columns: %d" % (table, len(table.columns)))
 
             document.add_page_break()
             table_no += 1
@@ -169,3 +172,4 @@ class Mysql2docx_cm(object):
 
         #
         document.save('%s.docx' % file_name)
+        print("Done!")
