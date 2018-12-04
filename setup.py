@@ -1,51 +1,32 @@
-#-*- encoding: UTF-8 -*-
+# -*- encoding: UTF-8 -*-
 from setuptools import setup, find_packages
 import sys, os
 from os import path
 
 """
-See https://github.com/icecooly/Mysql2docx
+See https://gitee.com/icecooly/Mysql2docx
 See https://gitee.com/chenjunyu/Mysql2docx
 """
 
-VERSION = '1.5'
+VERSION = '1.0'
 
 DESCRIPTION = (
-    '自动生成数据库设计文档（带样式）'
+    'generate data_dictionary.docx from mysql comments, with self-defined styles'
 )
 
 setup(
-        name='Mysql2docx_cm',
-        version=VERSION, 
-        description="mysql自动生成数据库设计文档（带样式）",
-        long_description=DESCRIPTION,
-        classifiers=[],
-        keywords='自动数据库设计文档（带样式）',
-        include_package_data=True,
-        author='tony.chenjy',
-        author_email='tony.chenjy@foxmail.com',
-        url='https://gitee.com/chenjunyu/Mysql2docx',
-        license='MIT',
-        packages=find_packages(),
-        install_requires=['python-docx','pymysql'],
-        extras_require={}
+    name='db2docx',
+    version=VERSION,
+    description="generate data_dictionary.docx from mysql comments, with self-defined styles",
+    long_description=DESCRIPTION,
+    classifiers=[],
+    keywords='',
+    include_package_data=True,
+    author='tony.chenjy',
+    author_email='tony.chenjy@foxmail.com',
+    url='https://gitee.com/chenjunyu/Mysql2docx',
+    license='MIT',
+    packages=find_packages(),
+    install_requires=['python-docx', 'pymysql', 'cx_Oracle'],
+    extras_require={}
 )
-
-'''
-setup(
-        name='Mysql2docx', 
-        version=VERSION, 
-        description="mysql自动生成数据库设计文档",
-        long_description=DESCRIPTION,
-        classifiers=[],
-        keywords='自动数据库设计文档',
-        include_package_data = True,
-        author='skydu',
-        author_email='icecooly.du@qq.com', 
-        url='https://github.com/icecooly/Mysql2docx',
-        license='MIT',
-        packages=find_packages(),
-        install_requires=['python-docx','pymysql'],
-        extras_require={}
-)
-'''

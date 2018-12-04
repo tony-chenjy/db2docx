@@ -1,6 +1,8 @@
-from Mysql2docx import Mysql2docx
-from Mysql2docx_cm import Mysql2docx_cm
+from db2docx import Mysql2Docx
+from db2docx import Oracle2Docx
 
-# m = Mysql2docx()
-m = Mysql2docx_cm()
-m.do(db_host='127.0.0.1', db_name='drklb', db_port=3306, db_user='root', db_pwd='root', file_name='深圳市大数据研究院数据字典')
+m = Mysql2Docx()
+m.do(db_host='127.0.0.1', db_name='drklb', db_port=3307, db_user='root', db_pwd='root', file_name='数据字典_mysql')
+
+o = Oracle2Docx()
+o.do(db_host='192.168.0.71', db_name='drklb', db_port=3307, db_user='root', db_pwd='root', file_name='数据字典_oracle')
