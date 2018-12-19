@@ -1,6 +1,5 @@
 # db2docx forked from Mysql2docx
-forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
-my another repo: [CM / db2docx](https://gitee.com/chenjunyu/Mysql2docx)
+[CM / db2docx](https://gitee.com/chenjunyu/Mysql2docx) forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
 
     what to used for:
         used to generate data_dictionary.docx from database comments, with self-defined styles
