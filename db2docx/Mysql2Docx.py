@@ -12,7 +12,7 @@ __author__ = 'tony.chenjy'
 
 class Mysql2Docx(Sql2Docx):
 
-    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典'):
+    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./'):
         print("jdbc_url=%s:%d/%s" % (db_host, db_port, db_name))
         print("db_user=%s" % db_user)
         print("db_pwd=%s" % db_pwd)
@@ -26,7 +26,7 @@ class Mysql2Docx(Sql2Docx):
             table.columns = self.get_columns(db, table_name)
 
         # generate docx
-        DocxGenerator.generate_docx(file_name=file_name, tables=tables)
+        DocxGenerator.generate_docx(file_path=file_path, file_name=file_name, tables=tables)
 
     # get tables from database connection
     def get_tables(self, db):
@@ -57,13 +57,21 @@ class Mysql2Docx(Sql2Docx):
         data = cursor.fetchall()
         columns = list()
         for column in data:
-            c = Column(column[0], column[1], column[2], column[3], self.get_comment(column[4]))
+            c = Column(column[0], column[1], self.is_nullable(column[2]), column[3], self.get_comment(column[4]))
             columns.append(c)
         cursor.close()
         return columns
+
+    def is_nullable(self, flag):
+        if flag == "YES":
+            return ""
+        else:
+            return "NO"
 
 
 if __name__ == '__main__':
     obj = Mysql2Docx('mysql2docx')
     print(obj)
     print(obj.db_name)
+    obj.do(db_host='127.0.0.1', db_name='drklb', db_port=3307, db_user='root', db_pwd='root', file_name='数据字典_mysql',
+           file_path='/')

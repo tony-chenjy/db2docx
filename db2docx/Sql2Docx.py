@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*-coding:utf-8-*-
 
-import json
+import chardet
 
 __author__ = 'tony.chenjy'
 
@@ -15,9 +15,9 @@ class Sql2Docx(object):
     # print method call tips
     @staticmethod
     def export():
-        print("call method do(db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典')")
+        print("call method do(db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./')")
 
-    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典'):
+    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./'):
         pass
 
     # get tables from database connection
@@ -33,11 +33,7 @@ class Sql2Docx(object):
     def get_comment(comment):
         if comment is None:
             return ""
-        try:
-            data = json.loads(comment)
-            return data[0]['value']
-        except:
-            return comment
+        return comment
 
 
 if __name__ == '__main__':

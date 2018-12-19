@@ -27,6 +27,6 @@ setup(
     url='https://gitee.com/chenjunyu/Mysql2docx',
     license='MIT',
     packages=find_packages(),
-    install_requires=['python-docx', 'pymysql', 'cx_Oracle'],
+    install_requires=['python-docx', 'pymysql', 'cx_Oracle', 'pymssql', 'chardet'],
     extras_require={}
 )

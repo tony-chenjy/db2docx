@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*-coding:utf-8-*-
 
-from db2docx import Sql2Docx
 
 __author__ = 'tony.chenjy'
 # !/usr/bin/python
@@ -18,7 +17,7 @@ __author__ = 'tony.chenjy'
 
 class Oracle2Docx(Sql2Docx):
 
-    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典'):
+    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./'):
         print("jdbc_url=%s:%d/%s" % (db_host, db_port, db_name))
         print("db_user=%s" % db_user)
         print("db_pwd=%s" % db_pwd)
@@ -35,7 +34,7 @@ class Oracle2Docx(Sql2Docx):
         #     table.columns = self.get_columns(db, table_name)
 
         # generate docx
-        # DocxGenerator.generate_docx(file_name=file_name, tables=tables)
+        # DocxGenerator.generate_docx(file_path=file_path, file_name=file_name, tables=tables)
 
     # get tables from database connection
     def get_tables(self, db):

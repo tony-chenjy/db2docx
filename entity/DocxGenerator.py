@@ -7,8 +7,6 @@ from docx.shared import Inches
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from entity import Table
-from entity import Column
 
 __author__ = 'tony.chenjy'
 
@@ -19,7 +17,7 @@ class DocxGenerator(object):
         pass
 
     @staticmethod
-    def generate_docx(file_name, tables):
+    def generate_docx(file_path, file_name, tables):
         # make a document
         document = Document()
         document.styles['Normal'].font.name = u'宋体'  # 可换成word里面任意字体
@@ -38,11 +36,14 @@ class DocxGenerator(object):
             document.add_page_break()
             table_no += 1
 
-            document.add_heading(text="%d.%s %s" % (table_no, table.name, table.comment), level=1)
+            # document.add_heading(text="%d.%s %s" % (table_no, table.name, table.comment), level=1)
+            # document.add_heading(text="%d.%s %s" % (table_no, table.name, table.comment), level=1)
             # document.add_paragraph(text="%s %s" % (table.name, table.comment), style='List Number')
+            document.add_heading(text="%s %s" % (table.name, table.comment), level=1)
 
             trs = len(table.columns) + 1
-            tds = 6
+            # tds = 6
+            tds = 5
             t = document.add_table(rows=trs, cols=tds, style='Table Grid')
 
             # 设置行高
@@ -59,10 +60,11 @@ class DocxGenerator(object):
             t.columns[2].width = Inches(1.1)
             t.columns[3].width = Inches(2)
             t.columns[4].width = Inches(0.9)
-            t.columns[5].width = Inches(1)
+            # t.columns[5].width = Inches(1)
 
             # 设置表格头
-            th_text = [u'序号', u'字段名', u'类型', u'字段描述', u'是否为空', u'默认值']
+            # th_text = [u'序号', u'字段名', u'类型', u'字段描述', u'允许为空', u'默认值']
+            th_text = [u'序号', u'字段名', u'类型', u'字段描述', u'允许为空']
             for i in range(len(th_text)):
                 p = t.rows[0].cells[i].paragraphs[0]
                 p.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
@@ -107,11 +109,12 @@ class DocxGenerator(object):
                 p.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
                 p.add_run(column.allowNull)
 
-                if column.defaultValue is not None:
-                    rowCells[5].text = column.defaultValue
+                # 默认值
+                # if column.defaultValue is not None:
+                #     rowCells[5].text = column.defaultValue
 
         #
-        document.save('%s.docx' % file_name)
+        document.save('%s%s.docx' % (file_path, file_name))
         print("Done!")
 
 
