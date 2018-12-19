@@ -6,6 +6,7 @@
         python-docx, pymysql, cx_Oracle, pymssql, chardet
     
     forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
+[输入链接说明](http://www.baidu.com)
 
 #### part1: Mysql2Docx 
     how to use (python command)
