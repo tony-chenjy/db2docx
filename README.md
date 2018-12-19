@@ -1,10 +1,12 @@
 # db2docx forked from Mysql2docx
+[CM / db2docx](https://gitee.com/chenjunyu/Mysql2docx) is forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
+
     what to used for:
         used to generate data_dictionary.docx from database comments, with self-defined styles
     
     required packages: 
         python-docx, pymysql, cx_Oracle, pymssql, chardet
-
+  
 #### part1: Mysql2Docx 
     how to use (python command)
     >>> from db2docx import Mysql2Docx
@@ -25,4 +27,4 @@
     (to be continued...)
 
 #### part4: export example
-![export example](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=193628&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F05%2FF8%2FPaAvDFwZ7MaAYnaNAAAxuZWEu6Y223.PNG%3Ftoken%3D6065ac12dfaae701cac3fe9315028ecc%26ts%3D1545203075%26attname%3Ddata_dictionary.PNG "在这里输入图片标题")
+![export example](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=193628&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F05%2FF8%2FPaAvDFwZ7MaAYnaNAAAxuZWEu6Y223.PNG%3Ftoken%3D6065ac12dfaae701cac3fe9315028ecc%26ts%3D1545203075%26attname%3Ddata_dictionary.PNG "export example")
