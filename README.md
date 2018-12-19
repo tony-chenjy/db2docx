@@ -1,13 +1,11 @@
 # db2docx forked from Mysql2docx
+forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
     what to used for:
         used to generate data_dictionary.docx from database comments, with self-defined styles
     
     required packages: 
         python-docx, pymysql, cx_Oracle, pymssql, chardet
-    
-    forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
-    [输入链接说明](http://www.baidu.com)
-
+  
 #### part1: Mysql2Docx 
     how to use (python command)
     >>> from db2docx import Mysql2Docx
