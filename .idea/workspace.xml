@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fab5492-b37a-408b-92c9-8af61988104e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2docx/Mysql2Docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/db2docx/Mysql2Docx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2docx/Oracle2Docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/db2docx/Oracle2Docx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db2docx/Sql2Docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/db2docx/Sql2Docx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db2docx/SqlServer2Docx.py" beforeDir="false" afterPath="$PROJECT_DIR$/db2docx/SqlServer2Docx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="110">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -93,7 +99,6 @@
       <list>
         <option value="$PROJECT_DIR$/Mysql2docx/Mysql2docx.py" />
         <option value="$PROJECT_DIR$/Mysql2docx/__init__.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Mysql2docx_cm/__init__.py" />
         <option value="$PROJECT_DIR$/Mysql2docx_cm/Oracle2docx_cm.py" />
         <option value="$PROJECT_DIR$/db2docx/Mysql2docx_cm.py" />
@@ -105,14 +110,16 @@
         <option value="$PROJECT_DIR$/db2docx/Oracle2Docx_cm.py" />
         <option value="$PROJECT_DIR$/db2docx/Mysql2Docx_cm.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1951f65c-1b52-4e6c-aacc-4a0b0da7c812/console.sql" />
-        <option value="$PROJECT_DIR$/db2docx/Oracle2Docx.py" />
-        <option value="$PROJECT_DIR$/db2docx/Sql2Docx.py" />
         <option value="$PROJECT_DIR$/main/TestString.py" />
         <option value="$PROJECT_DIR$/db2docx/__init__.py" />
-        <option value="$PROJECT_DIR$/db2docx/Mysql2Docx.py" />
-        <option value="$PROJECT_DIR$/main/Main.py" />
-        <option value="$PROJECT_DIR$/db2docx/SqlServer2Docx.py" />
         <option value="$PROJECT_DIR$/entity/DocxGenerator.py" />
+        <option value="$PROJECT_DIR$/db2docx/Sql2Docx.py" />
+        <option value="$PROJECT_DIR$/main/Main.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/db2docx/Mysql2Docx.py" />
+        <option value="$PROJECT_DIR$/db2docx/Oracle2Docx.py" />
+        <option value="$PROJECT_DIR$/db2docx/SqlServer2Docx.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -127,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,21 +142,10 @@
               <item name="Mysql2docx" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mysql2docx" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Mysql2docx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql2docx" type="462c0819:PsiDirectoryNode" />
-              <item name="db2docx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysql2docx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql2docx" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,16 +313,17 @@
       <workItem from="1545094005524" duration="21502000" />
       <workItem from="1545181586769" duration="1250000" />
       <workItem from="1545193365738" duration="555000" />
+      <workItem from="1545200241011" duration="2600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40302000" />
+    <option name="totallyTimeSpent" value="42902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,7 +337,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.45770064" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5791757" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -376,43 +374,10 @@
     <entry file="file://$PROJECT_DIR$/Mysql2docx/Column.py" />
     <entry file="file://$PROJECT_DIR$/Mysql2docx/Mysql2docx.py" />
     <entry file="file://$PROJECT_DIR$/Mysql2docx/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/entity/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1165243070/cx_Oracle/connect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1951f65c-1b52-4e6c-aacc-4a0b0da7c812/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db2docx/Oracle2Docx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#109#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -423,39 +388,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/software/Python37/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/Table.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db2docx/Sql2Docx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/Column.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://E:/software/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -548,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/TestString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db2docx/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -562,20 +489,6 @@
           <folding>
             <element signature="e#40#70#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db2docx/Mysql2Docx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -589,20 +502,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/entity/Table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/Column.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db2docx/SqlServer2Docx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        <state relative-caret-position="674">
+          <caret line="117" column="42" lean-forward="true" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
           <folding>
             <element signature="e#40#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#40#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db2docx/Sql2Docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db2docx/Oracle2Docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding>
+            <element signature="e#109#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db2docx/Mysql2Docx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/TestString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1951f65c-1b52-4e6c-aacc-4a0b0da7c812/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="110">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -118,5 +118,3 @@ if __name__ == '__main__':
     obj = SqlServer2Docx('sqlServer2docx')
     print(obj)
     print(obj.db_name)
-    obj.do(db_host='192.168.0.74', db_name='jtms', db_port=1433, db_user='sa', db_pwd='root',
-           file_name='数据字典_sqlServer', file_path='/')

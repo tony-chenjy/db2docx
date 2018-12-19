@@ -73,5 +73,3 @@ if __name__ == '__main__':
     obj = Mysql2Docx('mysql2docx')
     print(obj)
     print(obj.db_name)
-    obj.do(db_host='127.0.0.1', db_name='drklb', db_port=3307, db_user='root', db_pwd='root', file_name='数据字典_mysql',
-           file_path='/')

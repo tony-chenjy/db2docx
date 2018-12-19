@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*-coding:utf-8-*-
 
-import chardet
 
 __author__ = 'tony.chenjy'
 
@@ -15,9 +14,10 @@ class Sql2Docx(object):
     # print method call tips
     @staticmethod
     def export():
-        print("call method do(db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./')")
+        print(
+            "call method do(db_host, db_name, db_port, db_user='root', db_pwd='root', file_name='数据字典', file_path='./')")
 
-    def do(self, db_host, db_name, db_port=3306, db_user='root', db_pwd='root', file_name='数据字典', file_path='./'):
+    def do(self, db_host, db_name, db_port, db_user='root', db_pwd='root', file_name='数据字典', file_path='./'):
         pass
 
     # get tables from database connection

@@ -75,5 +75,3 @@ if __name__ == '__main__':
     obj = Oracle2Docx('oracle2docx')
     print(obj)
     print(obj.db_name)
-    obj.do(db_host='192.168.0.71', db_name='cjda', db_port=1521, db_user='CJDANW', db_pwd='root',
-           file_name='数据字典_oracle')

@@ -11,13 +11,13 @@ See https://gitee.com/chenjunyu/Mysql2docx
 VERSION = '1.0'
 
 DESCRIPTION = (
-    'generate data_dictionary.docx from mysql comments, with self-defined styles'
+    'generate data_dictionary.docx from database comments, with self-defined styles'
 )
 
 setup(
     name='db2docx',
     version=VERSION,
-    description="generate data_dictionary.docx from mysql comments, with self-defined styles",
+    description="generate data_dictionary.docx from database comments, with self-defined styles",
     long_description=DESCRIPTION,
     classifiers=[],
     keywords='',
