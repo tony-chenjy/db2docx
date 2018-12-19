@@ -5,8 +5,7 @@
     required packages: 
         python-docx, pymysql, cx_Oracle, pymssql, chardet
     
-    forked from icecooly / Mysql2docx
-        [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
+    forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
 
 #### part1: Mysql2Docx 
     how to use (python command)
