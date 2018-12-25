@@ -1,5 +1,5 @@
 # db2docx forked from Mysql2docx
-[CM / db2docx](https://gitee.com/chenjunyu/Mysql2docx) is forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
+[CM / db2docx](https://gitee.com/chenjunyu/Mysql2docx) & [yu578707139/db2docx](https://github.com/yu578707139/db2docx) is forked from [icecooly / Mysql2docx](https://gitee.com/icecooly/Mysql2docx)
 
     what to used for:
         used to generate data_dictionary.docx from database comments, with self-defined styles
