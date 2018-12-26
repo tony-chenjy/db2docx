@@ -12,12 +12,13 @@
 
 #### step1: install db2docx  
     (windows cmd) /Mysql2docx > python setup.py install
-![step1](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=195880&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F06%2F10%2FPaAvDFwi-FeAXfnnAAAn_rb5nmU186.PNG%3Ftoken%3Dad549b229bb7c7d333d5a868debe0ea9%26ts%3D1545795712%26attname%3Dstep1.PNG "在这里输入图片标题")
+![step1](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=195880&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F06%2F10%2FPaAvDFwi-FeAXfnnAAAn_rb5nmU186.PNG%3Ftoken%3Dad549b229bb7c7d333d5a868debe0ea9%26ts%3D1545795712%26attname%3Dstep1.PNG "step1")
 
 #### step2: run Main.py
     (windows cmd) /Mysql2docx/main > python Main.py
+![step2-1](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=195882&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F06%2F10%2FPaAvDFwi-HaAd7XUAAB3SxvG_Fc933.PNG%3Ftoken%3Dbaab644a936c348d7b11da71bb787102%26ts%3D1545795712%26attname%3Dstep2-1.PNG "step2-1")
 
-
+![step2-2](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=195883&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F06%2F10%2FPaAvDFwi-ICARt3-AABNrf-0sq4884.PNG%3Ftoken%3Dc9c3bbe927bf81d6cd7ddee1118cf37f%26ts%3D1545795712%26attname%3Dstep2-2.PNG "step2-2")
 
 #### step3: input database information and generate data_dictionary.docx happily.
    
