@@ -12,9 +12,12 @@
 
 #### step1: install db2docx  
     (windows cmd) /Mysql2docx > python setup.py install
+![step1](https://gitee.com/chenjunyu/Mysql2docx/attach_files/download?i=195880&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F06%2F10%2FPaAvDFwi-FeAXfnnAAAn_rb5nmU186.PNG%3Ftoken%3Dad549b229bb7c7d333d5a868debe0ea9%26ts%3D1545795712%26attname%3Dstep1.PNG "在这里输入图片标题")
 
 #### step2: run Main.py
     (windows cmd) /Mysql2docx/main > python Main.py
+
+
 
 #### step3: input database information and generate data_dictionary.docx happily.
    
