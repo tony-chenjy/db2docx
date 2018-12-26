@@ -4,9 +4,21 @@
     what to used for:
         used to generate data_dictionary.docx from database comments, with self-defined styles
     
+    develop environment:
+        python3.7
+    
     required packages: 
         python-docx, pymysql, cx_Oracle, pymssql, chardet
-  
+
+#### step1: install db2docx  
+    (windows cmd) /Mysql2docx > python setup.py install
+
+#### step2: run Main.py
+    (windows cmd) /Mysql2docx/main > python Main.py
+
+#### step3: input database information and generate data_dictionary.docx happily.
+   
+#### more ways: generate data_dictionary.docx originally
 #### part1: Mysql2Docx 
     how to use (python command)
     >>> from db2docx import Mysql2Docx

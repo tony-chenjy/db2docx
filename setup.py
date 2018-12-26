@@ -1,7 +1,6 @@
 # -*- encoding: UTF-8 -*-
+
 from setuptools import setup, find_packages
-import sys, os
-from os import path
 
 """
 See https://gitee.com/icecooly/Mysql2docx
