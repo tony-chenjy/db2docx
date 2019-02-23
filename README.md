@@ -2,13 +2,11 @@
 
 
 
-> A **[data dictionary](https://en.wikipedia.org/wiki/Data_dictionary)**, or [metadata repository](https://en.wikipedia.org/wiki/Metadata_repository), as defined in the *IBM Dictionary of Computing*, is a "centralized repository of information about data such as meaning, relationships to other data, origin, usage, and format".[[1\]](https://en.wikipedia.org/wiki/Data_dictionary#cite_note-1) *Oracle* defines it as a collection of tables with metadata.
-
-
-
 ## Description
 
 using the database table information and comment to generate a data dictionary.
+
+> A **[data dictionary](https://en.wikipedia.org/wiki/Data_dictionary)**, or [metadata repository](https://en.wikipedia.org/wiki/Metadata_repository), as defined in the *IBM Dictionary of Computing*, is a "centralized repository of information about data such as meaning, relationships to other data, origin, usage, and format".[[1\]](https://en.wikipedia.org/wiki/Data_dictionary#cite_note-1) *Oracle* defines it as a collection of tables with metadata.
 
 
 
