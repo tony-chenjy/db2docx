@@ -3,7 +3,7 @@
 
 ## Description
 
-根据数据库表与注释，生成数据字典
+using the database table information and comment to generate a data dictionary.
 
 
 
